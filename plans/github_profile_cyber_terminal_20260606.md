@@ -5,4 +5,4 @@
 - [x] Create animated SVG assets for the profile hero.
 - [x] Write the GitHub profile README.
 - [x] Verify referenced assets and README content.
-- [ ] Create or sync the `yunxi067/yunxi067` GitHub repository.
+- [x] Create or sync the `yunxi067/yunxi067` GitHub repository.
