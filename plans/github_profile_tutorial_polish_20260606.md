@@ -5,4 +5,4 @@
 - [x] Add tutorial-style dynamic README modules: typing banner, stats, streak, activity graph.
 - [x] Add contribution snake README embed.
 - [x] Add GitHub Actions workflow to generate the contribution snake assets.
-- [ ] Verify local files and remote sync.
+- [x] Verify local files and remote sync.
