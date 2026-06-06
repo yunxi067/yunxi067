@@ -1,3 +1,5 @@
+<!-- profile-readme-refresh: 2026-06-06T16:46:00+08:00 -->
+
 <p align="center">
   <img src="./assets/cyber-terminal.svg" alt="Yunxi067 cyber terminal banner" width="100%" />
 </p>
