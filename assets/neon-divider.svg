@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="86" viewBox="0 0 1200 86" role="img" aria-label="animated neon divider">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c7ff2e" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#c7ff2e"/>
+      <stop offset=".5" stop-color="#28d8ff"/>
+      <stop offset=".82" stop-color="#ff2e88"/>
+      <stop offset="1" stop-color="#ff2e88" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .dash { stroke-dasharray: 18 14; animation: move 2.4s linear infinite; }
+      .blink { animation: blink 1.4s steps(2,end) infinite; }
+      @keyframes move { to { stroke-dashoffset: -68; } }
+      @keyframes blink { 50% { opacity: .25; } }
+    </style>
+  </defs>
+  <rect width="1200" height="86" fill="#08090a"/>
+  <path d="M70 43H1130" stroke="url(#line)" stroke-width="2" class="dash"/>
+  <path d="M70 58H1130" stroke="#c7ff2e" stroke-opacity=".12" stroke-width="1"/>
+  <text x="82" y="32" fill="#c7ff2e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" class="blink">/ tools / terminal / shipping /</text>
+  <text x="830" y="32" fill="#a9a7a0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">README DOCTOR // WINDOWS DEV DOCTOR</text>
+</svg>
